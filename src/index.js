@@ -1,6 +1,7 @@
 require('./styles/main.scss');
 require("./images/logo-udelta.svg");
 
+require("./_redirects");
 
 //////////////
 // Favicons //

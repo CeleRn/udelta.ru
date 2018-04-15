@@ -170,6 +170,11 @@ module.exports = {
         test: /favicon\.ico$/,
         include: path.join(__dirname, "src", "images", "favicons"),
         loader: 'file-loader?name=favicon.ico'
+      },
+      {
+        test: /_redirects$/,
+        include: path.join(__dirname, "src"),
+        loader: 'file-loader?name=_redirects'
       }
     ]
   },
