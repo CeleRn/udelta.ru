@@ -21,6 +21,12 @@ body {
 }
 .logo {
     width: 300px;
+    @include media-breakpoint-down(sm) {
+        width: 200px;
+    }
+    @include media-breakpoint-down(xs) {
+        width: 150px;
+    }
     &__image {
         width: 100%;
     }
